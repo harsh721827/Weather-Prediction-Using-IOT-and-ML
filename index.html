@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predicted Weather</title>
+</head>
+<body>
+    <h1>Predicted Weather:</h1>
+    <ul>
+        {% for weather in predicted_weather %}
+        <li>{{ weather }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
